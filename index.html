@@ -14,13 +14,26 @@
     width: 100%;
     height: 60%;
   }
+
+  .card img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px; 
+  }
 </style>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="logostarwars.jpg" alt="Logo" width="50" height="50">
+            </a>
+          </div>
+        </nav>
+        <a class="navbar-brand" href="#">Anakin</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,27 +41,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#">Informacion</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -94,22 +90,20 @@
         <div class="row row-cols-1 row-cols-md-4 mb-3 row-cols-lg-5">
           <div class="card mb-3">
             <picture>
-              <source srcset="https://picsum.photos/id/80/1300/720" media="(min-width:1025px)" />
-              <source srcset="https://picsum.photos/id/80/1025/640" media="(min-width:720px)" />
-              <img src="https://picsum.photos/id/80/480/480" class="d-block w-100" alt="...">
+              <img src="anakindescarga8.jpg" class="d-block w-100" alt="...">
             </picture>
             <div class="card-body">
               <h5 class="card-title">Su batalla con Obi-Wan</h5>
-              <p class="card-text">La batalla épica entre Anakin Skywalker y su maestro Obi-Wan Kenobi en Mustafar es uno de los momentos más impactantes de Star Wars. Esta lucha simboliza el fin de la amistad entre ellos y el paso definitivo de Anakin al Lado Oscuro, donde se convierte en Darth Vader.</p>
+              <p class="card-text">La batalla épica entre Anakin Skywalker y su maestro Obi-Wan Kenobi en Mustafar es
+                uno de los momentos más impactantes de Star Wars. Esta lucha simboliza el fin de la amistad entre ellos
+                y el paso definitivo de Anakin al Lado Oscuro, donde se convierte en Darth Vader.</p>
               <p class="card-text"><small class="text-body-secondary">Última actualización: 5 mins atrás</small></p>
             </div>
           </div>
           <br />
           <div class="card mb-3">
             <picture>
-              <source srcset="https://picsum.photos/id/80/1300/720" media="(min-width:1025px)" />
-              <source srcset="https://picsum.photos/id/80/1025/640" media="(min-width:720px)" />
-              <img src="https://picsum.photos/id/80/480/480" class="d-block w-100" alt="Anakin Skywalker">
+              <img src="anakindescarga5jpg.jpg" class="d-block w-100" alt="Anakin Skywalker">
             </picture>
             <div class="card-body">
               <h5 class="card-title">¿Sabías que?</h5>
@@ -122,9 +116,8 @@
           <br />
           <div class="card mb-3">
             <picture>
-              <source srcset="https://picsum.photos/id/18/1300/720" media="(min-width:1025px)" />
-              <source srcset="https://picsum.photos/id/18/1025/640" media="(min-width:720px)" />
-              <img src="https://picsum.photos/id/18/480/480" class="d-block w-100" alt="Anakin Skywalker">
+            
+              <img src="anakindescarga6.jpg" class="d-block w-100" alt="Anakin Skywalker">
             </picture>
             <div class="card-body">
               <h5 class="card-title">Datos curiosos</h5>
@@ -136,9 +129,7 @@
           <br />
           <div class="card mb-3">
             <picture>
-              <source srcset="https://picsum.photos/id/93/1300/720" media="(min-width:1025px)" />
-              <source srcset="https://picsum.photos/id/93/1025/640" media="(min-width:720px)" />
-              <img src="https://picsum.photos/id/93/480/480" class="d-block w-100" alt="Anakin Skywalker">
+              <img src="anakindescarga7.jpg" class="d-block w-100" alt="Anakin Skywalker">
             </picture>
             <div class="card-body">
               <h5 class="card-title">El romance secreto</h5>
@@ -151,9 +142,7 @@
           <br />
           <div class="card mb-3">
             <picture>
-              <source srcset="https://picsum.photos/id/93/1300/720" media="(min-width:1025px)" />
-              <source srcset="https://picsum.photos/id/93/1025/640" media="(min-width:720px)" />
-              <img src="https://picsum.photos/id/93/480/480" class="d-block w-100" alt="Anakin Skywalker">
+              <img src="anakinimagen.jpg" class="d-block w-100" alt="Anakin Skywalker">
             </picture>
             <div class="card-body">
               <h5 class="card-title">La conexión con la Fuerza</h5>
